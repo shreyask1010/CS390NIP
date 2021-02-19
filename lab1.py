@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[3]:
-
-
 import os
 import numpy as np
 import tensorflow as tf
@@ -14,9 +8,6 @@ from keras.models import Sequential
 from keras.layers import Dense, Conv2D, Flatten
 from keras.layers import Dropout
 from sklearn import metrics
-
-
-# In[11]:
 
 
 # Setting random seeds to keep everything deterministic.
@@ -238,46 +229,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
